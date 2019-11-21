@@ -35,6 +35,9 @@
             </ul>            
           </li>
         </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to "View Cart", view_order_path %></li>
+        </ul>
         <div class="nav-item dropdown float-right">
           <% if user_signed_in? %>
             <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"></a>          
