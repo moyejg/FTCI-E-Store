@@ -12,33 +12,27 @@
   <% end %>
 
   <div class="form-group">
-    <%= form.label :name %>
-    <%= form.text_field :name %>
+    <%= form.text_field :name, placeholder: "Product Name", class: "form-control" %>
   </div>
 
   <div class="form-group">
-    <%= form.label :price %>
-    <%= form.text_field :price %>
+    <%= form.text_field :price, placeholder: "Price", class: "form-control"  %>
   </div>
 
   <div class="form-group">
-    <%= form.label :quantity %>
-    <%= form.number_field :quantity %>
+    <%= form.number_field :quantity, placeholder: "Quantity", class: "form-control"  %>
   </div>
 
   <div class="form-group">
-    <%= form.label :description %>
-    <%= form.text_area :description %>
+    <%= form.text_area :description, placeholder: "Describe the Product", class: "form-control"  %>
   </div>
 
   <div class="form-group">
-    <%= form.label :brand %>
-    <%= form.text_field :brand %>
+    <%= form.text_field :brand, placeholder: "Brand", class: "form-control"  %>
   </div>
 
   <div class="form-group">
-    <%= form.label :rating %>
-    <%= form.number_field :rating %>
+    <%= form.number_field :rating, placeholder: "Rating", class: "form-control"  %>
   </div>
 
   <div class="form-group">
